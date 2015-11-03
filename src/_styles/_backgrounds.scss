@@ -1,0 +1,32 @@
+// utils
+
+.background-contain {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// fills
+
+.bg-white {
+  background: $white;
+}
+
+
+.bg-gray {
+  background: $bc-grey;
+}
+
+.bg-dark {
+  background: $bc-dark;
+}
+
+.bg-darker {
+  background: $bc-darker;
+}
