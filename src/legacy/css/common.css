@@ -1,0 +1,245 @@
+body {
+	font-family: ubuntu, helvetica, arial;
+	background-color: #373D42;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: ubuntu, helvetica, arial;
+}
+
+h2 {
+	margin: 2em 0 1em 0;
+}
+
+p {
+	margin: 15px 0;
+	color: #999999;
+}
+
+a {
+	color: #F4F4F4;
+}
+
+a:hover {
+	color: white;
+}
+
+a.supported {
+	font-size: 14px;
+	color: white;
+}
+
+pre {
+	padding: 10px 15px;
+	background: #262A2E;
+	font-family: 'Ubuntu Mono', sans-serif;
+  	font-weight: 400;
+	font-size: 15px;
+	color: #C1C8CF;
+	line-height: 30px;
+	white-space: pre;
+	border: none;
+}
+
+.carousel-control.right {
+	background-image: linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.3) 100%);
+	background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(0,0,0,0.3) 100%));
+}
+
+.carousel-control.left {
+	background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.3) 0),color-stop(rgba(0,0,0,0.0001) 100%));
+	background-image: linear-gradient(to right,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.0001) 100%);
+}
+
+nav.navbar-default {
+	background-color: #8DC429;
+	padding: 1em 2em;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+/* Bitcoin is a powerfu: */
+
+.slider {
+	margin-top: 1em;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	-moz-box-shadow:    0px 0px 7px 0px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.50);
+	box-shadow:         0px 0px 7px 0px rgba(0,0,0,0.50);
+}
+
+/* Rectangle 17: */
+.carousel-caption {
+	background: rgba(55,61,65,0.5);
+	text-align: left;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 0.1em 1.5em;
+}
+
+.bg-white .carousel-caption p {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 5px 0;
+}
+
+.bg-white .carousel-caption h4 {
+	margin-bottom: 5px;
+}
+
+.row {
+	padding: 0.5em 0;
+}
+
+ul.features li {
+	background: #32383D;
+	padding: 0.1em 2em;
+	border-radius: 0.5em;
+	margin: 2em 0;
+}
+
+.icon {
+	color: #8DC429;
+	margin-top: 0.4em;
+	margin-right: 0.5em;
+	/*font-size: 3.5em !important;*/
+}
+
+.buttons {
+	margin-top: 20px;
+}
+
+.hidden-lg .buttons {
+	margin: 8% 0;
+}
+
+.hidden-lg h3 {
+	font-size: 1.4em !important;
+}
+
+.logo-header {
+	color: white;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.30);
+}
+
+.line-top {
+	border-top: 1px dashed #898989;
+	margin-top: 5em;
+}
+
+.m10 { margin:10px;}
+.m10v { margin:10px 0;}
+.m20v { margin:20px 0;}
+.m30v { margin:30px 0;}
+.m30b { margin-bottom:30px;}
+.m10h { margin:0 10px;}
+.m20h { margin: 0 20px;}
+.m30h { margin: 0 30px;}
+.p30v { padding: 4em 0;}
+
+
+.bg-white {
+	background: #fff;
+	padding: 6% 4%;
+}
+
+.bg-white h1 {
+	font-size: 1.8em;
+	color: #373D42;
+}
+
+.bg-white p {
+	font-weight: 100;
+	font-size: 1.2em;
+	color: #373D42;
+	line-height: 2em;
+}
+
+.glyphicon { 
+	margin-right: 0.5em;
+	font-size: 0.8em;
+}
+
+nav a.btn {
+	padding: 0.3em 1em;
+	font-size: 1em;
+}
+
+.btn {
+	border: 0;
+	display: inline-block;
+	font-weight: 100;
+	font-size: 1.5em;
+	padding: 0.5em 2.2em; 
+	border-radius: 5px;
+}
+
+.btn-default {background: white;}
+.btn-primary {background: #373D42;}
+.btn-success {
+  background: #8DC429;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.btn-info {background: #709D1E;}
+
+.btn-default:hover {background: #f2f2f2;}
+.btn-primary:hover {background: #272B2F;}
+.btn-success:hover {background: #709D1E;}
+.btn-info:hover {
+	background: white;
+	color: #373D42;
+}
+
+.fi {
+	font-style: italic;
+}
+
+.col-md-4 small {
+	color: #8DC429;
+}
+
+.col-md-4 p {
+	margin: 0;
+}
+
+a.view-more {
+	opacity: 0.3;
+	display: inline-block;
+}
+
+a.view-more:hover {opacity: 1;}
+
+p.logo-footer {
+	font-weight: 700;
+	font-style: italic;
+	float: right;
+	font-size: 18px;
+}
+
+footer {
+	background: #262A2E;
+	padding: 0.8em 0;
+}
+
+footer .container {
+	margin-bottom: 0;
+}
+
+footer p {
+	margin: 0;
+	color: #fff;
+}
+
+.media img.media-object {
+  max-height: 7.5em;
+  max-width: 7.5em;
+}
