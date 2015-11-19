@@ -14,6 +14,5 @@ gulp.task('copy', ['legacy'], function() {
 
 gulp.task('legacy', function() {
   return gulp.src(['src/legacy/**/*'])
-    .pipe($.debug())
     .pipe(gulp.dest('dist/legacy'));
 });
