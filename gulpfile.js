@@ -18,8 +18,8 @@ gulp.task('serve', function(cb) {
 gulp.task('build', ['delete'], function(cb) {
   runSequence(
     [
-    //   'code-review'
-    // ], [
+      'code-review'
+    ], [
       'sass',
       'jade',
       'copy',
