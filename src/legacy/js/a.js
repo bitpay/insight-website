@@ -1,3 +1,7 @@
+var currentYear = document.getElementById('currentYear');
+if (currentYear) {
+  currentYear.innerHTML = new Date().getFullYear();
+}
 $('.ribbon a').click(function() {
   analytics.track('Clicked top github ribbon, desktop');
 });
