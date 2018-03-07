@@ -1,7 +1,7 @@
 $font-family-sans-serif: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-monospace: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+$font-family-monospace: 'Source Code Pro', Menlo, Monaco, Consolas,
+  'Courier New', monospace;
 $font-family-headers: 'Titillium Web';
-
 
 pre {
   background: $pre-background-color;
@@ -27,7 +27,6 @@ h4 {
   line-height: 1.5em;
 }
 
-
 a {
   color: $bc-orange-dark;
 
@@ -51,7 +50,7 @@ a {
   font-size: 1em;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   text-transform: uppercase;
 }
 
@@ -93,7 +92,7 @@ a {
 }
 
 .menu-text {
-  font-size: .8em;
+  font-size: 0.8em;
   letter-spacing: 2px;
   line-height: 2.25em;
   padding-left: 1em;
