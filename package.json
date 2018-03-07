@@ -14,7 +14,7 @@
     "install": "gulp"
   },
   "engines": {
-    "node": "^0.12.7"
+    "node": ">=8"
   },
   "private": true,
   "dependencies": {
