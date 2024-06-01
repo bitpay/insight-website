@@ -43,7 +43,7 @@
     "gulp-size": "^2.0.0",
     "gulp-sourcemaps": "^1.6.0",
     "jshint-stylish": "^2.0.1",
-    "jstransformer-marked": "^1.0.1",
+    "jstransformer-marked": "^1.0.2",
     "mkdirp": "^0.5.1",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.4",
