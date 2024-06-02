@@ -28,7 +28,7 @@
     "gulp-autoprefixer": "^3.0.2",
     "gulp-cached": "^1.1.0",
     "gulp-csso": "^1.0.0",
-    "gulp-if": "^2.0.0",
+    "gulp-if": "^2.0.1",
     "gulp-jade": "^1.1.0",
     "gulp-jscs": "^3.0.1",
     "gulp-jshint": "^1.11.2",
